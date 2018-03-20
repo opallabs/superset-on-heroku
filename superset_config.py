@@ -31,9 +31,6 @@ CACHE_CONFIG = {
 'CACHE_REDIS_URL': 'redis://h:pd9fe08e309449296cda1d76d4bc6d6e0ae24165adf28914141375c49016d2a23@ec2-54-174-198-121.compute-1.amazonaws.com:7819'
 }
 
-RESULTS_BACKEND = RedisCache(
-    host='h:pd9fe08e309449296cda1d76d4bc6d6e0ae24165adf28914141375c49016d2a23@ec2-54-174-198-121.compute-1.amazonaws.com', port=7819, key_prefix='superset_results')
-
 # Flask-WTF flag for CSRF
 WTF_CSRF_ENABLED = CSRF_ENABLED = True
 
