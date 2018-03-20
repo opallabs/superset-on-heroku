@@ -35,7 +35,7 @@ Mako==1.0.6
 Markdown==2.6.8
 MarkupSafe==1.0
 numpy==1.13.0
-pandas==0.19.2
+pandas==0.20.3
 parsedatetime==2.0
 ply==3.10
 psycopg2==2.7.1
